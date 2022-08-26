@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <center><header><b>Calculadora</b></header></center>
+        <div class="container">
+            <label for="peso"><b>Peso:</b></label>
+            <input type="number" placeholder="Seu peso" id="peso">
+            <br><br>
+            <label for="altura"><b>Altura (em metros):</b></label>
+            <input type="number" placeholder="Seu altura" id="altura">
+            <br><br>
+            <button onclick="validate()">Calcular</button>
+            <h3>Resultado!</h3>
+            <p id="resultado"></p>
+    </div>
+    <footer><b>Leandro Moreira 2b Senai</b></footer>
+    <script src="script.js"></script>
+</body>
+</html>
